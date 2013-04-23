@@ -27,16 +27,31 @@ h5 {
 	font-size:18px;
 }
 
+#topnav {
+	
+	margin-top:25px;
+	margin-bottom:30px;
+
+}
+
 #topnav li {
 	
 	display:inline;
+	font-family:'Lucida Grande', Verdana, sans-serif;
+	color:#369;
+	margin-right:10px;
+	font-size:11px;
+	
 
 }
 
 #maincontainer {
 
+	display:block;
 	margin: auto;
 	width:60%;
+	margin-top:60px;
+	
 	
 }
 
@@ -115,7 +130,7 @@ h5 {
 
 #companyleft {
 	width:300px;
-
+	float:left;
 }
 
 #companyleft h3, p {
@@ -124,3 +139,9 @@ h5 {
 		margin-left:50px;
 }
 
+#companyright {
+	width:300px;
+	margin-left:400px;
+	
+
+}
