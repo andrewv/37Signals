@@ -92,3 +92,34 @@ h5 {
 	text-align:left;
 	font-size:22px;
 }
+
+.company h3 {
+	color:#cc0000;
+	font-family:'Lucida Grande', Verdana, sans-serif;
+	font-weight:bold;
+	font-size:18px;
+	
+}
+
+.company h4 {
+	font-size:60px;
+	color:grey;
+			float:left;
+	width:25px;
+}
+
+.company p {
+	font-size:12px;
+}
+
+#companyleft {
+	width:300px;
+
+}
+
+#companyleft h3, p {
+
+		text-align:left;
+		margin-left:50px;
+}
+
