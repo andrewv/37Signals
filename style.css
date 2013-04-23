@@ -27,9 +27,10 @@ h5 {
 	font-size:18px;
 }
 
-.topnav {
+#topnav li {
 	
-	
+	display:inline;
+
 }
 
 #maincontainer {
