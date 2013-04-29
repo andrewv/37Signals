@@ -19,6 +19,7 @@ h2 {
 	font-weight:600;
 	font-size:48px;
 	margin-bottom:20px;
+	clear:both;
 }
 
 h5 {
@@ -188,7 +189,72 @@ h5 {
 	margin-bottom:30px;
 }
 
-.book {
+#book {
 	clear:both;
 	margin-top:30px;
+}
+
+
+#book img {
+	float:left;
+	margin-left:50px;
+	margin-top:20px;
+}
+
+#book h4 {
+	color:grey;
+	font-style:italic;
+	font-size:24px;
+	margin-right:40px;
+	margin-top:20px;
+}
+
+#book p {
+	font-size:12px;
+	margin-top:10px;
+}
+
+.soupproduct {
+	
+	width:160px;
+	height:200px;
+	text-align:center;
+	float:left;
+	padding: 20px 10px 10px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.soupproduct h1, h3, p{
+	font-family:'Lucida Grande', Verdana, sans-serif;
+
+	
+}
+
+.soupproduct h1 {
+	
+
+	font-weight:bold;
+	font-size:21px;
+	color:black;
+}
+
+.soupproduct h3 {
+	font-weight:bold;
+	font-size:14px;
+	color:#cc0000;
+}
+
+.soupproduct p {
+	
+	font-size:12px;
+	margin-top:5px;
+	line-height:1.4em;
+}
+
+#products2 {
+	
+	width: 620px;
+	height:300px;
+	margin:0 auto;
 }
