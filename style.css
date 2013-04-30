@@ -17,8 +17,9 @@ h2 {
 	
 	font-weight:600;
 	font-size:48px;
-	margin-bottom:20px;
+	margin-bottom:40px;
 	clear:both;
+	margin-top:40px;
 }
 
 /*Red Headings */
@@ -27,6 +28,7 @@ h4 {
 	font-family:'Lucida Grande', Verdana, sans-serif;
 	font-weight:bold;
 	font-size:18px;
+	margin-bottom:10px;
 }
 
 h5 {
@@ -83,8 +85,6 @@ h5 {
 
 .productbox h1, h3, p{
 	font-family:'Lucida Grande', Verdana, sans-serif;
-
-	
 }
 
 .productbox h1 {
@@ -122,54 +122,33 @@ h5 {
 	font-size:22px;
 }
 
-.company {
-	clear:both;
-	margin-top:50px;
-	margin-bottom:30px;
-}
-.company h3 {
+#companyleft h3 {
 	font-size:60px;
-	color:grey;
+	color:#ccc;
 	float:left;
 	width:25px;
 	font-family:'Crimson Text', serif;
+	margin-right:20px;
 }
 
-.company p {
-	font-size:12px;
-}
+
 
 #companyleft {
 	width:350px;
-	float:left;
+	display:inline-block;
 	margin-left:50px;
 	margin-top:20px;
+	text-align:left;
+	margin-left:50px;
+	margin-bottom:10px;
 }
 
-#companyleft h3, #companyleft p {
-
-		text-align:left;
-		margin-left:50px;
-				margin-bottom:10px;
-
+#companyleft p {
+ text-align:left;
+ display:block;
+font-size:12px;
+margin-left:45px;
 }
-
-#companyright {
-	width:350px;
-
-	margin-left:500px;
-	margin-top:30px;
-	
-
-}
-
-#companyright h3, #companyright p {
-
-		text-align:left;
-		margin-left:50px;
-		margin-bottom:10px;
-}
-
 
 .customers {
 	clear:both;	
@@ -199,12 +178,13 @@ h5 {
 	margin-top:20px;
 }
 
-#book h4 {
+#book h3 {
 	color:grey;
 	font-style:italic;
 	font-size:24px;
 	margin-right:40px;
-	margin-top:20px;
+	margin-top:80px;
+	font-family: 'Crimson Text', serif;
 }
 
 #book p {
