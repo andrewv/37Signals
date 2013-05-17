@@ -1,9 +1,12 @@
-<!DOCTYPE = "html">
+<!DOCTYPE html>
 <html>
 <head>
 <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,600italic,400italic' rel='stylesheet' type='text/css'>
 <link type = "text/css" rel = "stylesheet" href = "reset.css">
 <link type = "text/css" rel = "stylesheet" href = "style.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="javascript.js"></script>
+
 <title>37 Signals</title>
 
 </head>
@@ -21,27 +24,31 @@
 	</header>	
 		<div id = "maincontainer">
 		<img src = "37logo.png"><br />
+		
 		<h1>Making collaboration productive and enjoyable for people every day.</h1>
 		<h5>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h5>
 		<br>
 
-		<div class = "productbox">
+		<div class = "productbox" id = "pbbc">
 		<img src = "logo-bc.png">
+		<img src = "arrow-left.png" id = "arrowbc" class = "arrow">
 		<h1>Basecamp</h1>
 		<h4>Manage Projects</h4>
 		<p>Used by millions for project management.</p>
 		</div>
 		
-		<div class = "productbox">
+		<div class = "productbox" id = "pbhr">
 		<img src = "logo-hr.png">
+		<img src = "arrow-left.png" id = "arrowhr" class = "arrow">
 		<h1>Highrise</h1>
 		<h4>Manage Contacts</h4>
 		<p>Know the people you do business with.</p>
 	
 		</div>
 		
-		<div class = "productbox">
+		<div class = "productbox" id = "pbcf">
 		<img src = "logo-cf.png">
+		<img src = "arrow-right.png" id = "arrowcf" class = "arrow">
 		<h1>Campfire</h1>
 		<h4>Work in Real-Time</h4>
 		<p>Group chat rooms for your business</p>
@@ -60,7 +67,7 @@
 		<br>
 
 		<h2>We built the company that we'd want to do business with. We hope you do too.</h2>
-			<div id = "companyleft">
+			<div class = "companyleft">
 				<div class = "companyitem">
 					<h3>1</h3>
 					<h4>Useful is forever</h4>
@@ -85,7 +92,7 @@
 					<p>Our customers fund our daily operations by paying for our products. We answer to them - not investors, the stock market, or a board of directors.</p>
 				</div>
 			</div>
-			<div id = "companyleft">
+			<div class = "companyleft">
 				<div class = "companyitem">
 					<h3>5</h3>
 					<h4>The basics are beautiful</h4>

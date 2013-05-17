@@ -134,7 +134,7 @@ li a {
 	font-size:22px;
 }
 
-#companyleft h3 {
+.companyleft h3 {
 	font-size:60px;
 	color:#ccc;
 	float:left;
@@ -145,7 +145,7 @@ li a {
 
 
 
-#companyleft {
+.companyleft {
 	width:380px;
 	display:inline-block;
 	margin-left:50px;
@@ -155,7 +155,7 @@ li a {
 	margin-bottom:10px;
 }
 
-#companyleft p {
+.companyleft p {
  text-align:left;
  display:block;
 font-size:12px;
@@ -294,4 +294,43 @@ footer span a {
 
 footer span a:hover {
 	text-decoration:underline;
+}
+
+#arrowbc {
+	position:absolute;
+	width:70px;
+	margin-left:20px;
+	margin-top:-40px;
+	
+}
+
+#arrowhr {
+	position:absolute;
+	width:70px;
+	margin-left:20px;
+	margin-top:-40px;
+	
+}
+
+#arrowcf {
+	position:absolute;
+	width:70px;
+	margin-left:-200px;
+	margin-top:-40px;
+	
+}
+
+.arrow {
+	display:none;
+
+}
+
+.jQueryHeadline {
+	font-size:48px;
+}
+
+.jQuerySubHeadline {
+	font-family:'Lucida Grande', Arial, sans-serif;
+	font-size:18px;
+	font-weight:normal;
 }
